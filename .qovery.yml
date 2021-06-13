@@ -1,0 +1,11 @@
+---
+application:
+  name: "telethonbot"
+  project: "randint"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-telethonbot"
+  routes:
+  - application_name: "telethonbot"
+    paths:
+    - "/*"
